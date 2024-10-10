@@ -9,7 +9,7 @@ import {
   Form,
 } from "react-bootstrap";
 
-const test = () => {
+const Test = () => {
   return (
     <div>
       {/* button */}
@@ -27,6 +27,7 @@ const test = () => {
       {/* navbar */}
 
       <Navbar bg="dark" variant="dark" expand="lg">
+        <Container>
         <Navbar.Brand href="#home">MyApp</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -36,6 +37,7 @@ const test = () => {
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        </Container>
       </Navbar>
 
       <Container>
@@ -67,4 +69,4 @@ const test = () => {
   );
 };
 
-export default test;
+export default Test;
