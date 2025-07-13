@@ -28,6 +28,12 @@
     },
     {
         "label": "pprint",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pprint",
+        "description": "pprint",
+        "detail": "pprint",
+        "documentation": {}
     },
     {
         "label": "pformat",
